@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@electron-toolkit/preload':
     specifier: ^3.0.0
-    version: 3.0.0(electron@28.2.0)
+    version: 3.0.0(electron@28.2.1)
   '@electron-toolkit/utils':
     specifier: ^3.0.0
-    version: 3.0.0(electron@28.2.0)
+    version: 3.0.0(electron@28.2.1)
   electron-updater:
     specifier: ^6.1.7
     version: 6.1.7
@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^18.19.9
     version: 18.19.10
   electron:
-    specifier: ^28.2.0
-    version: 28.2.0
+    specifier: ^28.2.1
+    version: 28.2.1
   electron-builder:
     specifier: ^24.9.1
     version: 24.9.1
@@ -332,12 +332,12 @@ packages:
       - supports-color
     dev: true
 
-  /@electron-toolkit/preload@3.0.0(electron@28.2.0):
+  /@electron-toolkit/preload@3.0.0(electron@28.2.1):
     resolution: {integrity: sha512-DTyvNGits43J1RiQGFN00/OxjjcTcozLWMjgQBANt97FFptEYiLVasq7kMC24nMwwoOpdDYY9CE6C+4wQJ55/w==}
     peerDependencies:
       electron: '>=13.0.0'
     dependencies:
-      electron: 28.2.0
+      electron: 28.2.1
     dev: false
 
   /@electron-toolkit/tsconfig@1.0.1(@types/node@18.19.10):
@@ -348,12 +348,12 @@ packages:
       '@types/node': 18.19.10
     dev: true
 
-  /@electron-toolkit/utils@3.0.0(electron@28.2.0):
+  /@electron-toolkit/utils@3.0.0(electron@28.2.1):
     resolution: {integrity: sha512-GaXHDhiT7KCvMJjXdp/QqpYinq69T/Pdl49Z1XLf8mKGf63dnsODMWyrmIjEQ0z/vG7dO8qF3fvmI6Eb2lUNZA==}
     peerDependencies:
       electron: '>=13.0.0'
     dependencies:
-      electron: 28.2.0
+      electron: 28.2.1
     dev: false
 
   /@electron/asar@3.2.8:
@@ -1860,8 +1860,8 @@ packages:
       - supports-color
     dev: true
 
-  /electron@28.2.0:
-    resolution: {integrity: sha512-22SylXQQ9IHtwLw4D+Z4Si7OUpeDtpHfJVTjy3yv53iLg5zJKKPOCWT4ZwgYGHQZ0eldyBrYBHF/P9FPd2CcVQ==}
+  /electron@28.2.1:
+    resolution: {integrity: sha512-wlzXf+OvOiVlBf9dcSeMMf7Q+N6DG+wtgFbMK0sA/JpIJcdosRbLMQwLg/LTwNVKIbmayqFLDp4FmmFkEMhbYA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true

@@ -7,11 +7,66 @@ body {
   overflow: hidden;
   background-size: cover;
   user-select: none;
-  background-color:dark;
+  background-color: dark;
+  width: 800px;
+  height: 600px;
+  background: #1e1e1e;
+  border-radius: 5px;
 }
 
+#container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+}
 
+#container nav {
+  display: block;
+  height: 30px;
+  background-color: #333333;
+  -webkit-app-region: drag;
+}
 
+#container nav #buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 30px;
+}
 
+#maximize #buttonspan:hover {
+  background-color: #555555;
+}
 
+#minimize #buttonspan:hover {
+  background-color: #555555;
+}
 
+#closeWindow #buttonspan:hover {
+  background-color: #f23f42;
+}
+
+#buttonspan {
+  height: 17px;
+  display: flex;
+  color: #909090;
+  margin-right: 1px;
+  padding: 6px;
+}
+
+#minimize {
+  -webkit-app-region: no-drag;
+}
+
+#closeWindow {
+  -webkit-app-region: no-drag;
+}
+
+#maximize {
+  -webkit-app-region: no-drag;
+}
